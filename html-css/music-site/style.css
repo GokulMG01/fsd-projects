@@ -18,7 +18,7 @@
 
 body {
     display: grid;
-    grid-template-rows: 8.5vh 77.5vh 10vh;
+    grid-template-rows: 8.5vh 72.5vh 10vh;
     grid-template-columns: 12vw 67vw 20vw;
     grid-gap: 10px;
     background-color: var(--main-bg-color);
