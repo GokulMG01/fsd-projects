@@ -257,11 +257,12 @@ aside {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        grid-template-rows: unset;
     }
 
     body {
         margin: 0 10px;
-        grid-template-rows: 8.5vh / 80vh /10vh;
+        grid-template-rows: 8.5vh / 75vh /10vh;
         grid-template-columns: 95vw;
         gap: 10px;
     }
