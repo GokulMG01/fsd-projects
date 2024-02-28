@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Playfair+Display?preview.text=Hello">
     <link rel="stylesheet" href="style.css">
     <title>Music Site</title>
-    <script src="script.js"></script>
 </head>
+
 <body>
     <header>
         <span class="logo"><img src="gold-logo.png" alt="logo"></span>
         <div class="box-and-button">
             <form>
-                <label  class="search-txt">
+                <label class="search-txt">
                     <span class="search-icon">
                         <i class="fas fa-search"></i></span>
                     <span class="searchtext">Search</span>
@@ -80,13 +80,818 @@
     </nav>
     <main>
         <section id="home" class="main-section">
-            <h1>home</h1>
+            <div class="recently-played inner-home-section">
+                <h3 class="sub-title">Recently Played</h3>
+                <div class="recently-played-container song-card-container">
+                    <div class="recently-played-song song-card">
+                        <div class="song-img"><img src="image/joe-poster.jpg" alt="joe movie poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Urugi urugi</p>
+                            <p class="song-movie-name">Joe</p>
+                        </div>
+                    </div>
+                    <div class="recently-played-song song-card">
+                        <div class="song-img"><img src="image/devathaiyai-kanden.jpg" alt="joe movie poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Azhage</p>
+                            <p class="song-movie-name">Devathaiyai Kanden</p>
+                        </div>
+                    </div>
+                    <div class="recently-played-song song-card">
+                        <div class="song-img"><img src="image/jillunu-oru-kadhal.jpg_large" alt="joe movie poster">
+                        </div>
+                        <div class="song-details">
+                            <p class="song-name">Munbea vaa</p>
+                            <p class="song-movie-name">Jillunu Oru Kadhal</p>
+                        </div>
+                    </div>
+                    <div class="recently-played-song song-card">
+                        <div class="song-img"><img src="image/Kireedam.jpg" alt="joe movie poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Vizhiyil un vizhiyil</p>
+                            <p class="song-movie-name">Kiredam</p>
+                        </div>
+                    </div>
+                    <div class="recently-played-song song-card">
+                        <div class="song-img"><img src="image/love-birdsjpg.jpg" alt="joe movie poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Malargale malargale</p>
+                            <p class="song-movie-name">Love Birds</p>
+                        </div>
+                    </div>
+                    <div class="recently-played-song song-card">
+                        <div class="song-img"><img src="image/naanayam.jpg" alt="joe movie poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Naan pogiren mele</p>
+                            <p class="song-movie-name">Naanayam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-hits inner-home-section">
+                <h3 class="sub-title">Popular Hits</h3>
+                <div class="song-card-container">
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/enemy-poster.webp" alt="Enemy poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Enemy</p>
+                            <p class="song-movie-name">by Imagine Dragons</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/nobody-sleeps-here-poster.jpg"
+                                alt="Nobody Sleeps Here movie poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Nobody Sleeps Here</p>
+                            <p class="song-movie-name">Conjuring Kannappan</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/part-of-me-poster.jpg" alt="Part of Me poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Part of Me</p>
+                            <p class="song-movie-name">by MAX</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/chill-mojito-poster.jpg" alt="Chill Mojito poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Chill Mojito</p>
+                            <p class="song-movie-name">by Badshah</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/sunroof-poster.jpg" alt="Sunroof poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Sunroof</p>
+                            <p class="song-movie-name">by Dazy</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/unholy-poster.jpg" alt="Unholy poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Unholy</p>
+                            <p class="song-movie-name">by Sam Smith</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/die-for-you-poster.jpg_large" alt="Die For You poster">
+                        </div>
+                        <div class="song-details">
+                            <p class="song-name">Die For You</p>
+                            <p class="song-movie-name">by Weekend</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/left-and-right-poster.jpg" alt="Left and Right poster">
+                        </div>
+                        <div class="song-details">
+                            <p class="song-name">Left and Right</p>
+                            <p class="song-movie-name">by Charlie Puth</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/manila-poster.jpg" alt="Manila poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Manila</p>
+                            <p class="song-movie-name">by LANY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="made-for-you inner-home-section">
+                <h3 class="sub-title">Made For You</h3>
+                <div class="song-card-container">
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/roja-poster.jpg" alt="Roja movie poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Roja Jaaneman</p>
+                            <p class="song-movie-name">Roja</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/mukkala-mukabla-poster.jpg" alt="Mukkala Mukabla poster">
+                        </div>
+                        <div class="song-details">
+                            <p class="song-name">Mukkala Mukabla</p>
+                            <p class="song-movie-name">Kadhalan</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/believer-poster.jpg" alt="Believer poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Believer</p>
+                            <p class="song-movie-name">Imagine Dragons</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/shape-of-you-poster.jpg" alt="Shape of You poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Shape of You</p>
+                            <p class="song-movie-name">Ed Sheeran</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/vaseegara-poster.jpg" alt="Vaseegara movie poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Vaseegara</p>
+                            <p class="song-movie-name">Minnale</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/let-it-go-poster.jpg" alt="Let It Go poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Let It Go</p>
+                            <p class="song-movie-name">Idina Menzel</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/nenjinile-poster.jpg" alt="Nenjinile movie poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Nenjinile</p>
+                            <p class="song-movie-name">Uyire</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/let-me-love-you-poster.jpg" alt="Let Me Love You poster">
+                        </div>
+                        <div class="song-details">
+                            <p class="song-name">Let Me Love You</p>
+                            <p class="song-movie-name">Justin Bieber</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/nenjinile-poster.jpg" alt="Uyire movie poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Uyire</p>
+                            <p class="song-movie-name">Uyire</p>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <div class="song-img"><img src="image/faded-poster.jpg" alt="Faded poster"></div>
+                        <div class="song-details">
+                            <p class="song-name">Faded</p>
+                            <p class="song-movie-name">Alan Walker</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </section>
         <section id="library" class="main-section">
-            <h1>Library</h1>
+            <div class="your-playlist inner-library-section">
+                <h3 class="sub-title">Your Playlist</h3>
+                <div class="playlist-card-container">
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/nobody-sleeps-here-poster.jpg"
+                                alt="New Songs Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">New Songs</p>
+                        </div>
+                    </div>
+
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/roja-poster.jpg" alt="Old Songs Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Old Songs</p>
+                        </div>
+                    </div>
+
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/nenjinile-poster.jpg" alt="Love Songs Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Love Songs</p>
+                        </div>
+                    </div>
+
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/die-for-you-poster.jpg_large"
+                                alt="Party Songs Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Party Songs</p>
+                        </div>
+                    </div>
+
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/love-birdsjpg.jpg" alt="Relaxing Songs Playlist">
+                        </div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Relaxing Songs</p>
+                        </div>
+                    </div>
+
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/enemy-poster.webp" alt="Workout Songs Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Workout Songs</p>
+                        </div>
+                    </div>
+
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/faded-poster.jpg" alt="Study Songs Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Study Songs</p>
+                        </div>
+                    </div>
+
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/mukkala-mukabla-poster.jpg"
+                                alt="Chill Songs Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Chill Songs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="liked-playlist inner-library-section">
+                <h3 class="sub-title">Liked Playlist</h3>
+                <div class="playlist-card-container">
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/80s-hits.jpg" alt="80s Hits Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">80s Hits</p>
+                        </div>
+                    </div>
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/90s-nostalgia.jpg" alt="90s Nostalgia Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">90s Nostalgia</p>
+                        </div>
+                    </div>
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/tamil-classics.jpg" alt="Tamil Classics Playlist">
+                        </div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Tamil Classics</p>
+                        </div>
+                    </div>
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/english-rock-anthems.jpg"
+                                alt="English Rock Anthems Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">English Rock Anthems</p>
+                        </div>
+                    </div>
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/chillout-lounge.jpg" alt="Chillout Lounge Playlist">
+                        </div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Chillout Lounge</p>
+                        </div>
+                    </div>
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/indie-folk-gems.webp" alt="Indie Folk Gems Playlist">
+                        </div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Indie Folk Gems</p>
+                        </div>
+                    </div>
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/classic-jazz-standards.jpg"
+                                alt="Classic Jazz Standards Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Classic Jazz Standards</p>
+                        </div>
+                    </div>
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/latin-dance-party.jpg"
+                                alt="Latin Dance Party Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Latin Dance Party</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="liked-song inner-library-section">
+                    <h3 class="sub-title">Liked Songs</h3>
+                    <div class="song-card-container">
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/shape-of-you-poster.jpg" alt="Shape of You poster">
+                            </div>
+                            <div class="song-details">
+                                <p class="song-name">Shape of You</p>
+                                <p class="song-movie-name">Ed Sheeran</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/let-it-go-poster.jpg" alt="Let It Go poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Let It Go</p>
+                                <p class="song-movie-name">Idina Menzel</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/mukkala-mukabla-poster.jpg"
+                                    alt="Mukkala Mukabla poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Mukkala Mukabla</p>
+                                <p class="song-movie-name">Kadhalan</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/believer-poster.jpg" alt="Believer poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Believer</p>
+                                <p class="song-movie-name">Imagine Dragons</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/nenjinile-poster.jpg" alt="Nenjinile movie poster">
+                            </div>
+                            <div class="song-details">
+                                <p class="song-name">Nenjinile</p>
+                                <p class="song-movie-name">Uyire</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/mukkala-mukabla-poster.jpg"
+                                    alt="Mukkala Mukabla poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Urvashi Urvashi</p>
+                                <p class="song-movie-name">Kadhalan</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/roja-poster.jpg" alt="Roja movie poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Chinna Chinna Aasai</p>
+                                <p class="song-movie-name">Roja</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/faded-poster.jpg" alt="Faded poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Faded</p>
+                                <p class="song-movie-name">Alan Walker</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/vaseegara-poster.jpg" alt="Vaseegara movie poster">
+                            </div>
+                            <div class="song-details">
+                                <p class="song-name">Vaseegara</p>
+                                <p class="song-movie-name">Minnale</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/roja-poster.jpg" alt="Roja movie poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Roja Jaaneman</p>
+                                <p class="song-movie-name">Roja</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/let-me-love-you-poster.jpg"
+                                    alt="Let Me Love You poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Let Me Love You</p>
+                                <p class="song-movie-name">Justin Bieber</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/nenjinile-poster.jpg" alt="Uyire movie poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Uyire</p>
+                                <p class="song-movie-name">Uyire</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/believer-poster.jpg" alt="Believer poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Thunder</p>
+                                <p class="song-movie-name">Imagine Dragons</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/shape-of-you-poster.jpg" alt="Shape of You poster">
+                            </div>
+                            <div class="song-details">
+                                <p class="song-name">Castle on the Hill</p>
+                                <p class="song-movie-name">Ed Sheeran</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/vaseegara-poster.jpg" alt="Vaseegara movie poster">
+                            </div>
+                            <div class="song-details">
+                                <p class="song-name">Snehidhane</p>
+                                <p class="song-movie-name">Minnale</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/let-it-go-poster.jpg" alt="Let It Go poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Into the Unknown</p>
+                                <p class="song-movie-name">Idina Menzel</p>
+                            </div>
+                        </div>
+
+                        <div class="song-card">
+                            <div class="song-img"><img src="image/faded-poster.jpg" alt="Faded poster"></div>
+                            <div class="song-details">
+                                <p class="song-name">Sing Me to Sleep</p>
+                                <p class="song-movie-name">Alan Walker</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
         </section>
         <section id="my-music" class="main-section">
-            <h1>My Music</h1>
+            <div class="downloded-playlist inner-my-music-section">
+                <h3 class="sub-title">Downloded Playlist</h3>
+                <div class="playlist-card-container">
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/love-birdsjpg.jpg" alt="Relaxing Songs Playlist">
+                        </div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Relaxing Songs</p>
+                        </div>
+                    </div>
+
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/mukkala-mukabla-poster.jpg"
+                                alt="Chill Songs Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Chill Songs</p>
+                        </div>
+                    </div>
+
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/english-rock-anthems.jpg"
+                                alt="English Rock Anthems Playlist"></div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">English Rock Anthems</p>
+                        </div>
+                    </div>
+
+                    <div class="playlist-card">
+                        <div class="playlist-img"><img src="image/tamil-classics.jpg" alt="Tamil Classics Playlist">
+                        </div>
+                        <div class="playlist-details">
+                            <p class="playlist-name">Tamil Classics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="downloded-songs inner-my-music-section">
+                <h3 class="sub-title">Downloded Song</h3>
+                <div class="downloaded-song-container">
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>1.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Shape of You</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Ed Sheeran</p>
+                                <p class="downloaded-song-artist-name">Ed Sheeran</p>
+                                <p class="downloaded-song-duration">4:23</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>2.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Let It Go</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Frozen</p>
+                                <p class="downloaded-song-artist-name">Idina Menzel</p>
+                                <p class="downloaded-song-duration">3:44</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>3.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Believer</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Imagine Dragons</p>
+                                <p class="downloaded-song-artist-name">Imagine Dragons</p>
+                                <p class="downloaded-song-duration">3:24</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>4.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Nenjinile</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Uyire</p>
+                                <p class="downloaded-song-artist-name">S.P. Balasubrahmanyam</p>
+                                <p class="downloaded-song-duration">5:10</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>5.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Mukkala Mukabla</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Kadhalan</p>
+                                <p class="downloaded-song-artist-name">Mano, Swarnalatha</p>
+                                <p class="downloaded-song-duration">6:15</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more songs below -->
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>6.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Roja Jaaneman</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Roja</p>
+                                <p class="downloaded-song-artist-name">S.P. Balasubrahmanyam, Sujatha Mohan</p>
+                                <p class="downloaded-song-duration">4:50</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>7.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Urvashi Urvashi</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Kadhalan</p>
+                                <p class="downloaded-song-artist-name">A.R. Rahman</p>
+                                <p class="downloaded-song-duration">5:36</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>8.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Vaseegara</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Minnale</p>
+                                <p class="downloaded-song-artist-name">Hariharan</p>
+                                <p class="downloaded-song-duration">4:20</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>9.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Let Me Love You</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Encore</p>
+                                <p class="downloaded-song-artist-name">DJ Snake, Justin Bieber</p>
+                                <p class="downloaded-song-duration">3:25</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>10.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Faded</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Different World</p>
+                                <p class="downloaded-song-artist-name">Alan Walker</p>
+                                <p class="downloaded-song-duration">3:32</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>11.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Castle on the Hill</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Nil</p>
+                                <p class="downloaded-song-artist-name">Ed Sheeran</p>
+                                <p class="downloaded-song-duration">4:21</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>12.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Snehidhane</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Minnale</p>
+                                <p class="downloaded-song-artist-name">S.P. Balasubrahmanyam, Sadhana Sargam</p>
+                                <p class="downloaded-song-duration">5:47</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>13.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Into the Unknown</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Frozen II</p>
+                                <p class="downloaded-song-artist-name">Idina Menzel, AURORA</p>
+                                <p class="downloaded-song-duration">3:14</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>14.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Sing Me to Sleep</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Different World</p>
+                                <p class="downloaded-song-artist-name">Alan Walker</p>
+                                <p class="downloaded-song-duration">3:12</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>15.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Thunder</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Evolve</p>
+                                <p class="downloaded-song-artist-name">Imagine Dragons</p>
+                                <p class="downloaded-song-duration">3:07</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>16.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Nandu Nindu Yawaga</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Snehitharu</p>
+                                <p class="downloaded-song-artist-name">Sonu Nigam, Shreya Ghoshal</p>
+                                <p class="downloaded-song-duration">4:56</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>17.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Dil Diyan Gallan</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Tiger Zinda Hai</p>
+                                <p class="downloaded-song-artist-name">Atif Aslam</p>
+                                <p class="downloaded-song-duration">4:21</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>18.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Hawa Hawai 2.0</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Tumhari Sulu</p>
+                                <p class="downloaded-song-artist-name">Kavita Krishnamurthy, Shashaa Tirupati</p>
+                                <p class="downloaded-song-duration">3:20</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>19.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Malare</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Premam</p>
+                                <p class="downloaded-song-artist-name">Vijay Yesudas</p>
+                                <p class="downloaded-song-duration">5:17</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="downloaded-song">
+                        <div class="downloaded-song-number">
+                            <h1>20.</h1>
+                        </div>
+                        <div class="downloaded-song-name-and-details">
+                            <p class="downloaded-song-name">Shape of My Heart</p>
+                            <div class="downloaded-song-details">
+                                <p class="downloaded-song-movie-name">Ten Summoner's Tales</p>
+                                <p class="downloaded-song-artist-name">Sting</p>
+                                <p class="downloaded-song-duration">4:38</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </section>
         <section id="setting" class="main-section">
             <h1>Settings</h1>
@@ -97,12 +902,24 @@
     </section>
     <aside>
         <div class="ad">
-            <h1>Advertisement</h1> 
+            <div class="ad-1 ad-container">
+                <h3>Get Premium Now</h3>
+                <button>Get Now</button>
+            </div>
+            <div class="ad-2 ad-container">
+                <h3>Get Premium Now</h3>
+                <button>Get Now</button>
+            </div>
         </div>
         <div class="song-info">
-            <h1>song info</h1>
+            <div class="info-song-img"><img src="image/enemy-poster.webp" alt=""></div>
+            <div class="info-song-details">
+                <p class="info-song-name">Song&Tab;: <span class="add-song-name">Enemy</span></p>
+                <p class="info-movie-name">Movie&Tab;: <span class="add-movie-name">Imagine Dragons</span></p>
+            </div>
         </div>
     </aside>
+    <script src="script.js"></script>
 </body>
 
 </html>

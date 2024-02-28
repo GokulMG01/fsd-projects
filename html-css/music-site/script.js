@@ -21,3 +21,16 @@ function scrollToSection(sectionId) {
     }
 }
 
+document.querySelectorAll(".song-card").forEach(element=>{
+    console.log("jldjlkjsa")
+    element.addEventListener('click',event=>{
+        // event.preventDefault()
+        let img = element.firstElementChild.firstElementChild.getAttribute("src");
+        let songName = element.lastElementChild.firstElementChild.innerHTML;
+        let MovieName = element.lastElementChild.lastElementChild.innerHTML;
+        document.querySelector(".info-song-img>img").setAttribute("src",img);
+        document.querySelector(".add-song-name").innerHTML = songName;
+        document.querySelector(".add-movie-name").innerHTML = MovieName;
+    })
+})
+
