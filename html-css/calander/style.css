@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    height: 5%;
+}
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+.event-heading{
+    float: left;
+    width: 20%; 
+}
+.calendar-heading{
+    float: right;
+    width: 80%; 
+}
+#event{
+    float: left;
+    width: 20%;
+    height: 85%;
+}
+.date-area{
+    width: 80%;
+    height: 15vh;
+    margin:0 auto;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.date--{
+    display: inline-block;
+    font-size: 5rem;
+    text-align: center;
+}
+/* ****************************************************** */
+#calendar {
+    float: right;
+    width: 80%;
+    height: 85%;
+}
+
+.year-and-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time-container{
+    display: flex;
+    margin-right: 6%;
+    font-size: 2.5rem;
+}
+.time:not(:first-child){
+    margin-left: 1rem;
+}
+.month-and-year {
+    padding-top: .5rem;
+    text-align: left;
+    margin-left: 4%;
+    font-size: 1.5rem;
+}
+
+.month-and-year select {
+    padding: 5px;
+    font-size: 2rem;
+    border-radius: 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+}
+/* ***************************************************** */
+.week {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(14.2857%, 1fr));
+    height: 10%;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.day {
+    text-align: center;
+    align-self: center;
+}
+
+.day:not(:first-child) {
+    border-left: 2px solid black;
+}
+/* ***************************************************** */
+#all-date-container {
+    margin: 0 auto;
+    padding: 5px;
+    width: 95%;
+    height: 89%;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(13%, 1fr));
+    gap: 5px 5px;
+    border: 2px solid black;
+    border-top: 0px solid black;
+    border-radius: 0 0 20px 20px;
+}
+
+.date-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    max-height: 200px;
+    border-radius: 15px;
+}
+
+.date-container:nth-child(odd):not(:nth-child(7n)) {
+    background-color: #eee;
+}
+
+
+.date {
+    font-size: 2.5em;
+    text-align: left;
+}
+
+.event {
+    padding: 5px 10px;
+    margin:auto 0;
+    margin-left: 5px;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.no-event{
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+}
+.list-of-events{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.event-container{
+    padding: 10px;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    overflow: auto;
+}
+.event-list{
+    width: 100%;
+    font-size: 2rem;
+    list-style-position: inside;
+}
+.event-of-the-day{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1em;
+}
+.event-text{
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 0.7em;
+}
+.event-action-buttons{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    cursor: pointer;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+.event-action-buttons >*{
+    margin-right: 10px;
+}
+.add-event{
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaffaa;
+    border: 2px solid black;
+    border-top: 0;
+}
+
+#today{
+    background-color: #aaffaa;
+}
+
